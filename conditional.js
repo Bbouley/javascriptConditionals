@@ -21,3 +21,22 @@ if (postalcode.charAt(5) === '-' || postalcode.length === 5){
 } else {
   alert('Invalid Postal Code');
 }
+
+var state = prompt ('What state are you from? Format = XX')
+
+if (state.length === 2){
+  alert('Valid State');
+} else {
+  alert('Invalid State');
+}
+
+var marriedqs = prompt ('Are you married?')
+var married = marriedqs.toUpperCase ();
+
+if (married === 'YES'){
+  alert('Nice one on getting married!!');
+} else if (married === 'NO'){
+  alert('You\'ll get there one day!!');
+} else {
+  alert('You haven\'t answered the question!!');
+}
