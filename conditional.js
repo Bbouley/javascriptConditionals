@@ -1,6 +1,6 @@
 var num = prompt('what is your number with dashes?');
 
-if (num.charAt(3) && num.charAt(7) === '-'){
+if (num.charAt(3 && 7) === '-'){
   alert('This is a valid Phone Number');
 } else {
     alert('This is not a valid Phone Number');
@@ -8,7 +8,7 @@ if (num.charAt(3) && num.charAt(7) === '-'){
 
 var birthdate = prompt('What is your DOB, in the format 00/00/00?');
 
-if (birthdate.charAt(2) && birthdate.charAt(5) === '/' && birthdate.length === 8){
+if (birthdate.charAt(2 && 5) === '/' && birthdate.length === 8){
   alert('Valid Birth Date');
 } else {
     alert('Invalid Birth Date');
