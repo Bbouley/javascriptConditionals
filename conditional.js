@@ -1,6 +1,6 @@
 var num = prompt('what is your number with dashes?');
 
-if (num.charAt(3 && 7) === '-'){
+if (num.charAt(3 && 7) === '-' && num.length === 12){
   alert('This is a valid Phone Number');
 } else {
     alert('This is not a valid Phone Number');
